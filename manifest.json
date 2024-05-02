@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Crunchyfull",
+    "description": "Make the Crunchyroll player fill the browser window",
+    "version": "1.0",
+    "author": "Ryan Willis <code@ryanwillis.com>",
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_title": "Crunchyfull"
+    },
+    "icons": {
+        "16": "img/icon16.png",
+        "32": "img/icon32.png",
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*.crunchyroll.com/*"],
+            "js": ["content/main.js"]
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://*.crunchyroll.com/*"
+    ]
+}
