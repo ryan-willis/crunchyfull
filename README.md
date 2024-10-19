@@ -6,9 +6,9 @@ A Chrome extension to make the Crunchyroll web video player take up the whole wi
 
 ## Installation
 
-1. Download the [latest release ZIP archive](https://github.com/ryan-willis/crunchyfull/releases).
+1. Download the [latest `Source code (zip)` archive](https://github.com/ryan-willis/crunchyfull/releases).
 
-2. Extract the ZIP archive.
+2. Extract the `.zip` archive.
 
 3. Open Chrome and navigate to `chrome://extensions`.
 
