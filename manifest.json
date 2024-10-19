@@ -5,8 +5,10 @@
     "version": "1.0",
     "author": "Ryan Willis <code@ryanwillis.com>",
     "action": {
-        "default_popup": "popup/popup.html",
         "default_title": "Crunchyfull"
+    },
+    "background": {
+        "service_worker": "service/worker.js"
     },
     "icons": {
         "16": "img/icon16.png",
@@ -21,6 +23,7 @@
         }
     ],
     "permissions": [
+        "storage",
         "tabs",
         "activeTab"
     ],

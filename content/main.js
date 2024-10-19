@@ -23,6 +23,7 @@ function toggle(request) {
   }
 
   localStorage.setItem("isFull", isFull ? "true" : "false");
+  chrome.runtime.sendMessage({ isFull });
 }
 
 chrome.runtime.onMessage.addListener(function (request, _, sendResponse) {

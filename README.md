@@ -1,8 +1,18 @@
-# 🍣 crunchyfull
 
-A Chrome extension to make the Crunchyroll web video player take up the whole window..
+<center>
+  <img src="img/icon128-on.png" />
+  <h1> crunchyfull </h1>
+</center>
 
-![Chrome Screenshot](crunchyfull.png)
+A Chrome extension to make the Crunchyroll web video player take up the whole window.
+
+Before:
+
+![Chrome Screenshot - Off](docs/crunchyfull-off.png)
+
+After:
+
+![Chrome Screenshot - On](docs/crunchyfull-on.png)
 
 ## Installation
 
